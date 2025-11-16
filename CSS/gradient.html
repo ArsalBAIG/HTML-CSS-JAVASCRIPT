@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gradients</title>
+	<style>
+		#divi{
+			height: 300px;
+			background-color: blue;
+			background-image: linear-gradient(to bottom, red , green);
+		}
+
+		#divi2{
+			height: 300px;
+			background-image: linear-gradient(250deg, blue, pink);
+		}
+
+		#divi3{
+			height: 200px;
+			background-image: radial-gradient(red, green, blue);
+		}
+
+		#divi4{
+			height: 200px;
+			background-image: radial-gradient(circle, red, green, blue);
+		}
+
+		#divi5{
+			height: 200px;
+			background-image: conic-gradient(red 90deg, blue 90deg)
+		}
+
+		#divi6{
+			height: 200px;
+			background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+			border-radius: 50%;
+		}
+	</style>
+</head>
+<body>
+	<!-- linear-gradient -->
+	<div id="divi">Div tag!</div>
+	<div id="divi2">Div tag2!</div>
+
+	<!-- radical gradient -->
+	<div id="divi3">Div tag3!</div>
+	<div id="divi4">Div tag4!</div>
+
+	<!-- conic gradient -->
+
+	<div id="divi5">Div tag5!</div>
+	<div id="divi6">Div tag6!</div>
+</body>
+</html>

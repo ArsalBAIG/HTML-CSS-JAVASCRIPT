@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Positions in CSS. </title>
+</head>
+<style>
+	p.rel{
+		position: relative; /*element can be movd anywhere in doc.*/
+	}
+
+	div.relative{
+		position: relative;
+		border: 3px solid green;
+	}
+
+	div.absolute{
+		position: absolute;
+		border: 4px solid darkred;
+	}
+</style>
+<body>
+	<p class="rel"> this is a paragraph tag to be applied the position property.</p>
+
+	<div class="relative"> this div is relative pos. </div>
+	<div class="absolute"> this div is absolute pos. </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animation in CSS.</title>
+	<style>
+		div{
+			height: 100px;
+			width: 100px;
+			background-color: blue;
+			animation-name: myanmy;
+			animation-duration: 5s;
+			animation-delay: 2s;
+			animation-iteration-count: 2;
+			animation-timing-function: ease-in;
+			position: relative;
+		}
+
+		@keyframes myanmy{
+			0% {background-color: blue; left: 0px; top: 0px;}
+			25% {background-color: yellow; left : 200px; top : 0px;}
+			50% {background-color: darkgreen; left : 200px;top : 200px;}
+			75% {background-color: hotpink; left :0px; top : 200px;}
+			100% {background-color: blue; left: 0px; top: 0px;}
+		}
+
+	</style>
+</head>
+<body>
+	<div>Hover me!</div>
+</body>
+</html>
